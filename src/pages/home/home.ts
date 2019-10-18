@@ -11,4 +11,8 @@ export class HomePage {
 
   }
 
+  goToCreateContact() {
+    this.navCtrl.push('CreateContactPage');
+  }
+
 }
